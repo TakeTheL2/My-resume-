@@ -1,0 +1,46 @@
+body{
+    background-color: #8ACE00;
+    font-family: "Gill Sans", sans-serif;
+}
+.Main{
+    justify-items: center;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 77%;
+}
+.profile{
+    width: 175px;
+    border-radius: 50%;
+}
+.Aboutme{
+    display: block;
+    width: 77%;
+}
+.skills{
+    display: block;
+    width: 77%;
+}
+.educationalbackground{
+    display: block;
+    width: 77%;
+}
+.extracurriculars{
+    display: block;
+    width: 77%;
+}
+.workexp{
+    display: block;
+    width: 77%;
+}
+.declaration{
+    display: block;
+    width: 77%;
+}
+.line{
+    width: 76%;
+    border: 0;
+    border-top: 1px solid black;
+}
