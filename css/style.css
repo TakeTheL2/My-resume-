@@ -1,4 +1,3 @@
-
 body{
     background-color: #8ACE00;
     font-family: "Gill Sans", sans-serif;
@@ -51,12 +50,16 @@ body{
     .profile {
 
         width: 95px;
+        height: 90px;
     }
 
     body {
-  font-size: clamp(13px, 2vw, 15px);
+  font-size: clamp(10px, 2vw, 13px);
+}
+
+.header h3 b {
+
+    font-size: 10px;
 }
 
 }
-
-
