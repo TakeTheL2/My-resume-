@@ -1,3 +1,4 @@
+
 body{
     background-color: #8ACE00;
     font-family: "Gill Sans", sans-serif;
@@ -12,7 +13,7 @@ body{
     width: 77%;
 }
 .profile{
-    width: 175px;
+    width: 165px;
     border-radius: 50%;
 }
 .Aboutme{
@@ -43,4 +44,17 @@ body{
     width: 76%;
     border: 0;
     border-top: 1px solid black;
+}
+
+@media (max-width: 768px) {
+
+    .profile {
+
+        width: 120px;
+    }
+
+    body {
+  font-size: clamp(13px, 2vw, 15px);
+}
+
 }
